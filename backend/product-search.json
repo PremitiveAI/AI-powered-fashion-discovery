@@ -1,0 +1,131 @@
+{
+    "data": [
+        {
+            "person_id": "person_1",
+            "bbox": {
+                "x1": 15,
+                "y1": 16,
+                "x2": 351,
+                "y2": 586
+            },
+            "crop_ref": "/tmp/person_crops/person_1.jpg",
+            "crop_dimensions": {
+                "width": 340,
+                "height": 574
+            },
+            "original_dimensions": {
+                "width": 400,
+                "height": 600
+            },
+            "vision_detections_count": 6,
+            "items": [
+                {
+                    "category": "clothing",
+                    "type": "t-shirt",
+                    "color": "red",
+                    "brand": "puma",
+                    "gender": "female",
+                    "pattern": "solid",
+                    "relation": "wearing",
+                    "bbox": {
+                        "x1": 188,
+                        "y1": 228,
+                        "x2": 293,
+                        "y2": 457
+                    }
+                },
+                {
+                    "category": "clothing",
+                    "type": "jeans",
+                    "color": "red, black",
+                    "brand": "adidas, puma",
+                    "gender": "female",
+                    "pattern": "solid",
+                    "relation": "wearing",
+                    "bbox": {
+                        "x1": 186,
+                        "y1": 455,
+                        "x2": 291,
+                        "y2": 580
+                    }
+                }
+            ]
+        },
+        {
+            "person_id": "person_2",
+            "bbox": {
+                "x1": 15,
+                "y1": 16,
+                "x2": 351,
+                "y2": 586
+            },
+            "crop_ref": "/tmp/person_crops/person_1.jpg",
+            "crop_dimensions": {
+                "width": 340,
+                "height": 574
+            },
+            "original_dimensions": {
+                "width": 400,
+                "height": 600
+            },
+            "vision_detections_count": 6,
+            "items": [
+                {
+                    "category": "clothing",
+                    "type": "t-shirt",
+                    "color": "red, black",
+                    "brand": "adidas, puma",
+                    "gender": "male",
+                    "pattern": "solid",
+                    "relation": "wearing",
+                    "bbox": {
+                        "x1": 188,
+                        "y1": 228,
+                        "x2": 293,
+                        "y2": 457
+                    }
+                },
+                {
+                    "category": "clothing",
+                    "type": "jeans",
+                    "color": "red, black",
+                    "brand": "adidas, puma",
+                    "gender": "female",
+                    "pattern": "solid",
+                    "relation": "wearing",
+                    "bbox": {
+                        "x1": 186,
+                        "y1": 455,
+                        "x2": 291,
+                        "y2": 580
+                    }
+                }
+            ]
+        },
+        {
+            "object_id": "object_1",
+            "input_type": "object",
+            "original_dimensions": {
+                "width": 600,
+                "height": 600
+            },
+            "items": [
+                {
+                    "category": "accessory",
+                    "type": "watch",
+                    "color": "silver",
+                    "pattern": "null",
+                    "brand": "Titan",
+                    "gender": "male",
+                    "bbox": {
+                        "x1": 144,
+                        "y1": 18,
+                        "x2": 468,
+                        "y2": 576
+                    },
+                    "confidence": "precise"
+                }
+            ]
+        }
+    ]
+}
