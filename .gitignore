@@ -158,3 +158,11 @@ run.py
 temp/
 
 /backend/storage/*
+/backend/products/createdUser/*
+/backend/uploads/*
+/backend/try_on/*
+/backend/try_on1/*
+/backend/vector_db/*
+/backend/qdrant_storage/*
+/backend/qdrant_storage1/*
+/backend/try_on/*
